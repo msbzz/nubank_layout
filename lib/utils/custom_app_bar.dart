@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nubank_layout/themes/colors.dart';
 import 'package:nubank_layout/utils/images_app_bar.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -13,7 +14,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return Container(
       height: height,
-      color: const Color(0xFF8A05BE), // Exemplo de cor de fundo
+      color:  Color(ROXO_NUBANK), // Exemplo de cor de fundo
       padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 10.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
