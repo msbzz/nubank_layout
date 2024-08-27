@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nubank_layout/themes/colors.dart';
+import 'package:nubank_layout/utils/build_action_button.dart';
 import 'package:nubank_layout/utils/custom_app_bar.dart';
 
 class HomePage extends StatelessWidget {
@@ -30,14 +31,35 @@ class HomePage extends StatelessWidget {
                 Text('€3.240.221',
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 24,
+                        fontSize: 32,
                         fontFamily: 'Roboto',
                         fontWeight: FontWeight.bold)), // Estilo de texto
               ],
             ),
           ),
+          Container(
+              color: const Color(PRETO),
+              padding: const EdgeInsets.only(top: 37),
+              width: double.infinity,
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(children: [
+                  BuildActionButton(icon:Icons.account_balance_wallet,label: 'Área Pix'),
+                  BuildActionButton(icon:Icons.credit_card,label: 'Pagar'),
+                  BuildActionButton(icon:Icons.transfer_within_a_station,label: 'Transferir'),
+                  BuildActionButton(icon:Icons.account_balance,label: 'Depositar'),
+                  BuildActionButton(icon:Icons.phone_android,label: 'Recarga'),
+                  BuildActionButton(icon:Icons.account_balance_wallet,label: 'Área Pix'),
+                  BuildActionButton(icon:Icons.credit_card, label:'Pagar'),
+                  BuildActionButton(icon:Icons.transfer_within_a_station,label: 'Transferir'),
+                  BuildActionButton(icon:Icons.account_balance,label: 'Depositar'),
+                  BuildActionButton(icon:Icons.phone_android,label: 'Recarga'),
+                ]),
+              ))
         ],
       ),
     );
   }
 }
+
+ 
