@@ -1,2 +1,6 @@
  const ROXO_NUBANK =0xFF8A19D6;
  const PRETO = 0xFF000000;  
+ const CINZA=0xFF6EBFF;
+ const LightBlue= 0xFF00008B;
+ const PRETO_CLARO1= 0xFF292929;
+  const PRETO_CLARO2= 0xFF1C1C1C;

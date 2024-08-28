@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nubank_layout/themes/colors.dart';
 
 class BuildActionButton extends StatelessWidget {
    BuildActionButton({Key?key,required this.icon,required this.label}): super(key:key);
@@ -12,7 +13,7 @@ class BuildActionButton extends StatelessWidget {
       children: [
         CircleAvatar(
           radius: 36,
-          backgroundColor: Colors.white.withOpacity(0.1),
+          backgroundColor: const Color(PRETO_CLARO1), //Colors.white.withOpacity(0.1),
           child: Icon(icon, color: Colors.white, size: 36),
         ),
         const SizedBox(height: 8),
