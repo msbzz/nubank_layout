@@ -10,7 +10,7 @@ class NewCard extends StatelessWidget {
         child: Padding(
       padding: const EdgeInsets.only(top: 37, left: 12.0),
       child: Container(
-        color: Color(PRETO_CLARO3),
+        color: Color(PRETO_CLARO4),
         padding: const EdgeInsets.symmetric(horizontal: 8.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -44,7 +44,7 @@ class NewCard extends StatelessWidget {
                   ),
                 ),
                 child: const Text('Pedir Cartão',
-                    style: TextStyle(color: Colors.white)))
+                    style: TextStyle(color: Colors.white),),)
           ],
         ),
       ),
