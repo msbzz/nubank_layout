@@ -6,21 +6,19 @@ import 'package:nubank_layout/utils/info_box_card.dart';
 import 'package:nubank_layout/utils/messages.dart';
 import 'package:nubank_layout/utils/services_buttons.dart';
 
-class HomePage extends StatelessWidget {
+ 
+ class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar(height: 120.0),
-      body: SingleChildScrollView(
+      body: SafeArea(
         child: Container(
-          color: const Color(PRETO),
-          height: MediaQuery.of(context).size.height, // Ocupa toda a altura da tela
-          alignment: Alignment.topLeft,
-          child: const Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+          color:Color(PRETO),
+          child: ListView(
+            children: const [
               Balance(),
               ServicesButtons(),
               InfoBoxCard(),
