@@ -4,6 +4,7 @@ import 'package:nubank_layout/utils/balance.dart';
 import 'package:nubank_layout/utils/custom_app_bar.dart';
 import 'package:nubank_layout/utils/info_box_card.dart';
 import 'package:nubank_layout/utils/messages.dart';
+import 'package:nubank_layout/utils/new_card.dart';
 import 'package:nubank_layout/utils/services_buttons.dart';
 
  
@@ -23,6 +24,7 @@ import 'package:nubank_layout/utils/services_buttons.dart';
               ServicesButtons(),
               InfoBoxCard(),
               Messages(),
+              NewCard(),
             ],
           ),
         ),
