@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:nubank_layout/themes/colors.dart';
 import 'package:nubank_layout/utils/new_feature.dart';
+
+
 
 class NewFeatures extends StatelessWidget {
   const NewFeatures({super.key});
@@ -11,18 +13,34 @@ class NewFeatures extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Text('Descubra mais', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,color:Colors.white)),
+          padding: EdgeInsets.only(left: 12, top: 36),
+          child: Text('Descubra mais',
+              style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white)),
         ),
-        SizedBox(
-          height: 600, // Definindo a altura para o ListView horizontal
+        Container(
+          height:340, // Ajuste para garantir que os itens não excedam os limites
           child: ListView(
             scrollDirection: Axis.horizontal,
-            children: [
-              NewFeature(feature: 'Portabilidade de salário'),
-              //NewFeature(feature: 'Cashback em todas as compras'),
-              //NewFeature(feature: 'Seguro de vida personalizado'),
-              //NewFeature(feature: 'Investimentos automáticos'),
+            children: const  [
+              NewFeature(
+                title: 'Portabilidade de salário',
+                description:
+                    'Sua liberdade financeira começa com você escolhendo',
+              ),
+              NewFeature(
+                title: 'Cashback nas compras ',
+                description:
+                    'Sua liberdade financeira começa com você escolhendo',
+              ),
+              NewFeature(
+                title: 'Seguro de vida',
+                description:
+                    'Sua liberdade financeira começa com você escolhendo',
+              ),
+              // Adicione mais NewFeature widgets se necessário
             ],
           ),
         ),
