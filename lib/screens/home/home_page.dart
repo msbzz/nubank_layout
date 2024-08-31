@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:nubank_layout/themes/colors.dart';
-import 'package:nubank_layout/utils/balance.dart';
-import 'package:nubank_layout/utils/custom_app_bar.dart';
-import 'package:nubank_layout/utils/info_box_card.dart';
-import 'package:nubank_layout/utils/messages.dart';
-import 'package:nubank_layout/utils/new_card.dart';
-import 'package:nubank_layout/utils/new_features.dart';
-import 'package:nubank_layout/utils/services_buttons.dart';
+import 'package:nubank_layout/screens/balance/balance.dart';
+import 'package:nubank_layout/screens/app_bar/custom_app_bar.dart';
+import 'package:nubank_layout/screens/info_box_card/info_box_card.dart';
+import 'package:nubank_layout/screens/messages/messages.dart';
+import 'package:nubank_layout/screens/new_card/new_card.dart';
+import 'package:nubank_layout/screens/features/new_features.dart';
+import 'package:nubank_layout/screens/sevices/services_buttons.dart';
 
  
  class HomePage extends StatelessWidget {

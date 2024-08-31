@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ImagensAppBar extends StatelessWidget {
-    ImagensAppBar({Key?key,required this.path}) :super(key:key);
+   ImagensAppBar({Key?key,required this.path}) :super(key:key);
    final String path;
   @override
   Widget build(BuildContext context) {

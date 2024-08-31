@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nubank_layout/utils/show_message.dart';
-import 'package:nubank_layout/utils/text_block.dart';
+import 'package:nubank_layout/screens/messages/component/show_message.dart';
+import 'package:nubank_layout/screens/messages/model/text_block.dart';
 
 class TextMessage extends StatelessWidget {
   final String message;

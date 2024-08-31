@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nubank_layout/utils/build_action_button.dart';
+import 'package:nubank_layout/screens/sevices/compoment/build_action_button.dart';
 
 class ServicesButtons extends StatelessWidget {
   const ServicesButtons({super.key});

@@ -14,8 +14,8 @@ import 'package:nubank_layout/themes/colors.dart';
   @override
   Widget build(BuildContext context) {
 
-    print('title ==>> $title / len ==> ${title.length} ');
-    print('description,==>> $description / len ==> ${description.length}');
+    //print('title ==>> $title / len ==> ${title.length} ');
+    //print('description,==>> $description / len ==> ${description.length}');
     
     return Padding(
       padding: const EdgeInsets.all(12.0),

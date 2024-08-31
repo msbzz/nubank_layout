@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nubank_layout/utils/text_block.dart';
+import 'package:nubank_layout/screens/messages/model/text_block.dart';
 
 class ShowMessage extends StatelessWidget {
   final List<TextBlock> textBlocks;

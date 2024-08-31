@@ -10,7 +10,7 @@ class NewCard extends StatelessWidget {
         child: Padding(
       padding: const EdgeInsets.only(top: 37, left: 12.0),
       child: Container(
-        color: Color(PRETO_CLARO4),
+        color: const Color(PRETO_CLARO4),
         padding: const EdgeInsets.symmetric(horizontal: 8.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -35,7 +35,7 @@ class NewCard extends StatelessWidget {
             TextButton(
                 onPressed: () {},
                 style: TextButton.styleFrom(
-                  backgroundColor: Color(0xFF8A19D6), // Cor de fundo roxa
+                  backgroundColor: const Color(ROXO_NUBANK), // Cor de fundo roxa
                   padding: const EdgeInsets.symmetric(
                       vertical: 12.0, horizontal: 24.0),
                   shape: RoundedRectangleBorder(

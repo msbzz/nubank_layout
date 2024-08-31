@@ -9,11 +9,11 @@ class InfoBoxCard extends StatelessWidget {
     return Padding(
       padding:const EdgeInsets.only(top:35,left:12.0) , 
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0), //EdgeInsets.only(top:35)
+        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),  
         child: InkWell(
           onTap: () {
             // Ação ao tocar na caixa
-            print('Navegar para a seção de Meus Cartões');
+            //print('Navegar para a seção de Meus Cartões');
           },
           child: Container(
             width: double.infinity, // Expande para ocupar toda a largura disponível

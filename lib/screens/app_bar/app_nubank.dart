@@ -2,8 +2,8 @@
  
 
 import 'package:flutter/material.dart';
-import 'package:nubank_layout/home/home_page.dart';
-import 'package:nubank_layout/splash/splash_page.dart';
+import 'package:nubank_layout/screens/home/home_page.dart';
+import 'package:nubank_layout/screens/splash/splash_page.dart';
 
 class AppNubank extends StatelessWidget {
   const AppNubank({super.key});
@@ -15,8 +15,8 @@ class AppNubank extends StatelessWidget {
        debugShowCheckedModeBanner: false,
        initialRoute: "/splash",
        routes:{
-         "/splash" : (context) => SplashPage(),
-         "/home" : (context) => HomePage(),
+         "/splash" : (context) => const SplashPage(),
+         "/home" : (context) => const HomePage(),
        }
     );
   }

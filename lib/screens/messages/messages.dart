@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nubank_layout/utils/message.dart';
+import 'package:nubank_layout/screens/messages/component/message.dart';
 
 class Messages extends StatelessWidget {
   const Messages({super.key});

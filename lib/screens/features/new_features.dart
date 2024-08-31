@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nubank_layout/themes/colors.dart';
-import 'package:nubank_layout/utils/new_feature.dart';
+import 'package:nubank_layout/screens/features/new_feature.dart';
 
 
 
