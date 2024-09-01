@@ -17,8 +17,8 @@ migrate_working_dir/
 .idea/
 
 #Local
-readme.md
-/info/
+#readme.md
+#/info/
 *.txt
 temp.dart
 
